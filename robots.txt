@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fake-gps.sdmv.my.id/sitemap.xml
