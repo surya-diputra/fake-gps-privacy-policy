@@ -28,3 +28,14 @@ Use the contents of this directory as the root of a dedicated GitHub repository.
    - `https://fake-gps.sdmv.my.id/robots.txt`
 
 Use the root URL as the Google Play privacy-policy URL and the developer website URL. Add the same root domain to the app's AdMob store settings so AdMob can crawl `app-ads.txt`.
+
+## AdMob launch checklist
+
+1. In Google Play Console, set the app's developer website to `https://fake-gps.sdmv.my.id/` and its privacy policy to the same URL.
+2. Confirm the public Play listing shows that developer website under app support.
+3. In AdMob, link the app to its Google Play listing.
+4. In AdMob **Privacy & messaging**, use `https://fake-gps.sdmv.my.id/` as the privacy policy URL and publish the European regulations message.
+5. Confirm `https://fake-gps.sdmv.my.id/app-ads.txt` returns the exact publisher record from this repository.
+6. Request an app-ads.txt refresh in AdMob after deployment. Google notes that discovery and status updates can take up to 24 hours.
+
+The policy page intentionally contains no advertising tags, analytics scripts, consent-message tags, forms, cookies, or browser storage.
